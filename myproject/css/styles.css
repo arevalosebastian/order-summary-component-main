@@ -1,0 +1,139 @@
+:root{
+    --title-color: hsl(223, 47%, 23%);
+    --text-color: hsl(224, 23%, 55%);
+    --bg-color: hsl(225, 100%, 94%);
+    --card-bg-color: hsl(225, 100%, 98%);
+    --button-color: hsl(245, 75%, 52%);
+    --hover-color: hsl(275, 43%, 59%);
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+    background-color: var(--bg-color);
+    font-family: 'Red Hat Display', sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url(/myproject/assets/images/pattern-background-mobile.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.component{
+    background-color: var(--card-bg-color);
+    border-radius: 30px;
+    width: 22rem;
+    overflow: hidden;
+}
+
+.component__header-image{
+    max-width: 100%;
+}
+
+.component__body{
+    padding: 1.25rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.component__title{
+    text-align: center;
+    color: var(--title-color);
+    margin-top: 0;
+}
+
+.component__text{
+    color: var(--text-color);
+    text-align: center;
+    margin-top: 0;
+    font-size: 1.15em;
+    line-height: 1.8rem;
+}
+
+.component__plan-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 1.25rem 0
+}
+
+.music-icon{
+    width: 3.5rem;
+}
+
+.plan-info{
+    display: flex;
+    flex-direction: column;
+    margin-left: -4.375rem;
+}
+
+.plan-info > p{
+    margin: 0;
+    font-weight: 400;
+}
+
+.plan-info p{
+    color: var(--text-color)
+}
+
+.plan-info p:first-child{
+    font-weight: 600;
+    color:hsl(223, 47%, 23%)
+}
+
+.change-button{
+    border: none;
+    background-color: inherit;
+    color: var(--button-color);
+    font-weight: 700;
+    text-decoration: underline;
+}
+
+.component__proceed-button{
+    background-color: var(--button-color);
+    color: var(--bg-color);
+    width: 100%;
+    padding: 1.25rem;
+    border-radius: 20px;
+    font-weight: 700;
+    font-size: 18px;
+    border: none;
+    margin: 0.75rem 0;
+    font-stretch:extra-expanded
+}
+
+.component__cancel-button{
+    border: none;
+    background-color: inherit;
+    font-weight: 700;
+    color: var(--text-color);
+    font-size: 17px;
+    margin: 0.75rem 0;
+    
+}
+
+@media screen and (min-width: 765px){
+    body{
+        background-image: url(/myproject/assets/images/pattern-background-desktop.svg);
+    }
+
+    .component__proceed-button:hover{
+        background-color:
+        var(--hover-color);
+        cursor: pointer;
+    }
+
+    .change-button:hover{
+        color: var(--hover-color);
+        cursor: pointer;
+    }
+
+    .component__cancel-button:hover{
+        color: var(--title-color);
+        cursor: pointer;
+    }
+}
