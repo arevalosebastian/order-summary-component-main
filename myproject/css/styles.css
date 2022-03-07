@@ -125,15 +125,18 @@ body{
         background-color:
         var(--hover-color);
         cursor: pointer;
+        transition: background-color .5s;
     }
 
     .change-button:hover{
         color: var(--hover-color);
         cursor: pointer;
+        transition: background-color .5s;
     }
 
     .component__cancel-button:hover{
         color: var(--title-color);
         cursor: pointer;
+        transition: background-color .5s;
     }
 }
