@@ -27,7 +27,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [https://www.frontendmentor.io/solutions/order-summary-component-with-vanilla-html-css-8Jw5bC-Eh](https://your-solution-url.com)
-- Live Site URL: [https://arevalosebastian.github.io/order-summary-component-main/myproject/index.html](https://your-live-site-url.com)
+- Live Site URL: [https://arevalosebastian.github.io/order-summary-component-main/myproject/index.html](https://arevalosebastian.github.io/order-summary-component-main/myproject/index.html)
 
 ## My process
 
