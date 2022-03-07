@@ -118,7 +118,7 @@ body{
 
 @media screen and (min-width: 765px){
     body{
-        background-image: url(/myproject/assets/images/pattern-background-desktop.svg);
+        background-image: url(../assets/images/pattern-background-desktop.svg);
     }
 
     .component__proceed-button:hover{
